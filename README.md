@@ -47,9 +47,9 @@ The dependency is reloaded by JRebel.
 The third timestamp should stay the same (time of application startup):
 It's a static field and JRebel doesn't seem to touch these when reloading the class.
 
-### Versions ###
+### Versions / Requirements ###
 
-Tested with JRebel 6.2.5, Play framework 2.4.3, Java 1.8.0_60-b27, Activator 1.3.6 .
+Tested with JRebel 6.2.5, Play framework 2.4.3, Java 1.8.0_60-b27, Activator 1.3.6, Gradle 2.7 .
 
 The play application in `/play-java` has been created with `activator new play-java play-java`.
 The only change is the output of the `Application` controller.
